@@ -1,0 +1,91 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/contentModel.xml
+/.idea.api-wMiniLink.iml
+/projectSettingsUpdater.xml
+/modules.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+
+
+### Diretórios de build e dependências ###
+[Bb]in/
+[Oo]bj/
+.nuget/
+packages/
+*.nupkg
+.nuget/
+nuget.exe
+artifacts/
+
+### Configurações do Visual Studio ###
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.iml
+*.sw?
+*.vsp
+*.psess
+*.vspscc
+*.vssscc
+*.VC.db
+*.VC.VC.opendb
+
+### Arquivos de ambiente local e secrets ###
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.json
+secrets.json
+launchSettings.json
+*.pubxml
+*.publishproj
+
+### Logs e arquivos temporários ###
+logs/
+*.log
+*.tmp
+*.cache
+*.bak
+*.pidb
+*.DS_Store
+
+### Node.js / npm (se houver front-end) ###
+node_modules/
+npm-debug.log
+package-lock.json
+yarn.lock
+
+### Ferramentas do front-end (Webpack, Bower, etc.) ###
+bower_components/
+dist/
+wwwroot/lib/  # (Se usar libs via npm/bower, mas mantenha arquivos estáticos importantes)
+*.min.js
+*.min.css
+
+### Rider (JetBrains) ###
+.idea/
+*.sln.iml
+*.DotSettings
+
+### VS Code ###
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+*.code-workspace
+
+### Docker (se aplicável) ###
+docker-compose.override.yml
+.env
+.dockerignore
+
+### Outros ###
+*.orig
+*~
+Thumbs.db
